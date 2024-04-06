@@ -28,4 +28,4 @@ Pesquise no google como enviar a informação que foi digitada no campo <input> 
 
 13.Desafio 2: A série de Fibonacci é formada pela seqüência 1,1,2,3,5,8,13,21,34,55,... Faça um programa capaz de gerar a série até o n−ésimo termo. (você define o valor de n)
 
-14.Desafio 3: tente colocar os resultados acima dentro de uma tag <h1></h1> do HTML ao invés de ser no “console.log” (procurar no google)
+Desafio 3: tente colocar os resultados acima dentro de uma tag <h1></h1> do HTML ao invés de ser no “console.log” (procurar no google)

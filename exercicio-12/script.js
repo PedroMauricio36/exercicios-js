@@ -11,5 +11,3 @@ function numeroMaior() {
         document.getElementById("resultado").innerHTML = `Compre o terceiro produto.`;
     }
 }
-
-// Alternativa B
