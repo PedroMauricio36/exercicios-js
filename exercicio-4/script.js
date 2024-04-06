@@ -11,5 +11,5 @@ function calcularMedia() {
 
     let resultado = (peso1 + peso2 + peso3) / media;
     
-    document.getElementById("resultado").innerHTML = " A média do aluno é de:  " + resultado + ".";
+    document.getElementById("resultado").innerHTML = `A média do aluno é de: ${parseInt(resultado)}.`;
 }

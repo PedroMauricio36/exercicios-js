@@ -5,8 +5,8 @@ function calcularMedia() {
     let nota4 = parseFloat(document.getElementById("quartaNota").value);
     let calculo = (nota1 + nota2 + nota3 + nota4) / 4;
     
-    document.getElementById("resultado").innerHTML = " A média do aluno é de:  " + calculo + ".";
-
+    document.getElementById("resultado").innerHTML = `A média do aluno é de: ${parseInt(calculo)}.`;
+    
     if (calculo>=5) { 
         document.getElementById("resultadoPlus").innerHTML = "Aprovado! Parabéns!";
     } else {

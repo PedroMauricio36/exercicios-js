@@ -3,8 +3,8 @@ function calcularIMC() {
     let altura = parseFloat(document.getElementById("altura").value);
     let imc = (peso / (altura * altura));
 
-    document.getElementById("resultado").innerHTML = " Seu IMC é de:  " + parseInt(imc) + ".";
-
+    document.getElementById("resultado").innerHTML = `Seu IMC é de: ${parseInt(imc)}.`;
+    
     if (imc<18.5) {
         document.getElementById("resultadoPlus").innerHTML = " Abaixo do Peso. ";
     } 

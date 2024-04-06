@@ -18,6 +18,5 @@ function calcularSalario() {
         salarioAtual = salarioAtual * 1.05; // Ajuste de 5%
 
         document.getElementById("resultado").innerHTML = `Reajuste de 5% totalizando: R$ ${parseInt(salarioAtual)}.`;
-
     }
 }
