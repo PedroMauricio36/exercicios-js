@@ -1,4 +1,3 @@
-
 function calcularCentimetros() {
     let metro = (document.getElementById("metros").value);
     

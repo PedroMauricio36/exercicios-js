@@ -1,4 +1,3 @@
-
 function calcularMedia() {
     let nota1 = parseFloat(document.getElementById("primeiraNota").value);
     let nota2 = parseFloat(document.getElementById("segundaNota").value);
